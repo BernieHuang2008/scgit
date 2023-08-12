@@ -1,0 +1,57 @@
+{
+    "targets": {
+        1: {
+            "blocks": {
+                "7MKN/V*A?7MbF:wxxhGh": {
+                    "x": 134
+                },
+                "(iNhhicx-nHN9D|7G_q6": {
+                    "next": "VS)4**/kh^`7=9vTss~V"
+                },
+                "%xbr.2p.G?/dSC[f]S/N": {
+                    "parent": "VS)4**/kh^`7=9vTss~V"
+                },
+                "VS)4**/kh^`7=9vTss~V": {
+                    "opcode": "sound_play",
+                    "next": "%xbr.2p.G?/dSC[f]S/N",
+                    "parent": "(iNhhicx-nHN9D|7G_q6",
+                    "inputs": {
+                        "SOUND_MENU": [
+                            1,
+                            "p$TG37FtE_/wSztp@CnO"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": False,
+                    "topLevel": False
+                },
+                "p$TG37FtE_/wSztp@CnO": {
+                    "opcode": "sound_sounds_menu",
+                    "next": None,
+                    "parent": "VS)4**/kh^`7=9vTss~V",
+                    "inputs": {},
+                    "fields": {
+                        "SOUND_MENU": [
+                            "喵", None
+                        ]
+                    },
+                    "shadow": True,
+                    "topLevel": False
+                }
+            },
+            "currentCostume": 2,
+            "costumes": {insert: [(2,
+                    {
+                        "assetId": "adb3f014b86ca2c86cd6cb98a92b8161",
+                        "name": "造型3",
+                        "bitmapResolution": 1,
+                        "md5ext": "adb3f014b86ca2c86cd6cb98a92b8161.svg",
+                        "dataFormat": "svg",
+                        "rotationCenterX": 48.02691922653895,
+                        "rotationCenterY": 50.84982091292173
+                    })
+                ]
+            }
+        }
+    }
+}
